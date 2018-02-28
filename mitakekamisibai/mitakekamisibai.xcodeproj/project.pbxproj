@@ -65,6 +65,8 @@
 		CE56E0B52046756400ECC784 /* settingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingbutton.png; sourceTree = "<group>"; };
 		CE56E0B72046759600ECC784 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
 		CE56E0B92046818600ECC784 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top.png; path = "../../素材/top.png"; sourceTree = "<group>"; };
+		CE56E0BC204685FE00ECC784 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top.png; path = "../../素材/top.png"; sourceTree = "<group>"; };
+		CE56E0BD2046862100ECC784 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top.png; path = "../../素材/top.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,17 +149,43 @@
 		CE56E0A62046641900ECC784 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				CE56E0AF2046739400ECC784 /* illust.png */,
-				CE56E0AD20466CA800ECC784 /* englishs.png */,
-				CE56E0AB20466C7200ECC784 /* japanese.png */,
+				CE56E0BE2046862A00ECC784 /* change */,
+				CE56E0BB204685FE00ECC784 /* UI */,
 				CE56E0B92046818600ECC784 /* top.png */,
+				CE56E0BF2046865500ECC784 /* languege */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CE56E0BB204685FE00ECC784 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE56E0BC204685FE00ECC784 /* top.png */,
+				CE56E0BD2046862100ECC784 /* top.png */,
 				CE56E0A9204664EC00ECC784 /* startbutton.png */,
 				CE56E0B1204673D000ECC784 /* textbar.png */,
 				CE56E0B32046755500ECC784 /* nextbutton.png */,
 				CE56E0B52046756400ECC784 /* settingbutton.png */,
 				CE56E0B72046759600ECC784 /* backbutton.png */,
 			);
-			name = image;
+			name = UI;
+			sourceTree = "<group>";
+		};
+		CE56E0BE2046862A00ECC784 /* change */ = {
+			isa = PBXGroup;
+			children = (
+				CE56E0AF2046739400ECC784 /* illust.png */,
+			);
+			name = change;
+			sourceTree = "<group>";
+		};
+		CE56E0BF2046865500ECC784 /* languege */ = {
+			isa = PBXGroup;
+			children = (
+				CE56E0AD20466CA800ECC784 /* englishs.png */,
+				CE56E0AB20466C7200ECC784 /* japanese.png */,
+			);
+			name = languege;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
